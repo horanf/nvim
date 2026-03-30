@@ -15,6 +15,9 @@ lazy-lock.json
 lua/plugins/lazy.lua
 .luarc.json
 
+# MCP / AI tools
+.serena/
+
 # Plugin data
 data/
 debug/
