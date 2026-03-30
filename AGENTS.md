@@ -35,6 +35,7 @@ There is no dedicated build/test harness in this repo (no `Makefile`, `package.j
   - `stylua lua/plugins/ui.lua`
 
 Formatter config is in `stylua.toml`:
+
 - `indent_type = "Spaces"`
 - `indent_width = 2`
 - `column_width = 120`
@@ -54,6 +55,7 @@ Use these to verify the config loads without UI:
   - `nvim --headless "+lua vim.cmd('messages')" +qa`
 
 If plugin state matters, Lazy can be driven headlessly (may install/update plugins):
+
 - `nvim --headless "+Lazy! sync" +qa`
 
 ### Tests
@@ -115,6 +117,7 @@ Follow existing patterns in this repo (LazyVim + lazy.nvim plugin spec conventio
   - a list of plugin spec tables
 
 Common keys used here:
+
 - `opts = { ... }` for plugin options
 - `config = function() ... end` for imperative setup
 - `dependencies = { ... }` for plugin deps
